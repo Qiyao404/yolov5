@@ -1,0 +1,13 @@
+train: E:/yolov5/mydataset/aimbot/train/images
+val: E:/yolov5/mydataset/aimbot/valid/images
+test: E:/yolov5/mydataset/aimbot/test/images
+
+nc: 2
+names: ['-', 'Valorant_Aimbot_0 - v1 2023-04-10 8-01pm']
+
+roboflow:
+  workspace: yolo-wprtn
+  project: yolo-yt25r
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-wprtn/yolo-yt25r/dataset/1
